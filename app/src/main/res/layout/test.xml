@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/main"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#00ff00"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刘总高端定制版"
+            android:textColor="#0000ff"
+
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="设置视频路径,选择一个正确的视屏即可"
+        />
+
+   <Button
+       android:id="@+id/sel"
+       android:layout_marginTop="50dp"
+       android:layout_width="100dp"
+       android:layout_height="40dp"
+       android:text="选择路径1"
+       />
+
+    <Button
+        android:id="@+id/sel2"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="选择路径2"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="播放"
+        />
+
+</LinearLayout>
+
+<ListView
+    android:visibility="gone"
+    android:id="@+id/listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+</ListView>
+
+</RelativeLayout>
