@@ -38,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
 
    String temp="";
 
+    String userNane="1.2的版本";
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
