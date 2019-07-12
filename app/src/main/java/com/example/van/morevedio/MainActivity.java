@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
     String name1="front";
     String name2="left_repeater";
     String name3="right_repeater";
-
-   String temp="";
+    String temp="";
+    private String tempname="1.1的版本";
 
 
     @Override
